@@ -10,15 +10,15 @@ public class TrianguloRefactoring {
         this.tangente = catetoOposto/catetoAdjacente;
     }
 
-    public double getSeno() {
+    public float getSeno() {
         return seno;
     }
 
-    public double getCosseno() {
+    public float getCosseno() {
         return cosseno;
     }
 
-    public double getTangente() {
+    public float getTangente() {
         return tangente;
     }
 }
